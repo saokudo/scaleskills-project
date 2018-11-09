@@ -1,0 +1,91 @@
+:root {
+    --light-green: #86d0d0;
+    --green: #289699;
+    --dark-green: #084c4c;
+    --light-yellow: #fdf5a6;
+    --yellow: #f7dc6a;
+    --dark-yellow: #be952f;
+    --light-orange: #f58e81;
+    --orange: #ef6945;
+    --dark-orange: #b73227;
+    --light-red: #f289b7;
+    --red: #ea204e;
+    --dark-red: #b21e45;
+    --light-purple: #cc5da3;
+    --purple: #a9206a;
+    --dark-purple: #741b56;
+    --black: #252625;
+    --dark-gray: #7f7f7f;
+    --gray: #e0e1e0;
+    --light-gray: #f0f0f0;
+    --white: #ffffff;
+}
+
+/* ====== Boilerplate Styling ====== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nexa', 'Gill Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+a, a:visited, a:hover {
+	text-decoration: none;
+}
+
+textarea, input {
+  transition: border .5s ease-in-out;
+}
+
+textarea:focus, input:focus {
+	border-color: none;
+}
+
+textarea:focus, input:focus, button:focus, button {
+    outline: blue;
+}
+
+button {
+	border: none;
+}
+
+/* ====== Page Styling ====== */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.header-video-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--dark-green);
+    opacity: 0.8;
+}
+
+#header-video {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.header-writing {
+    z-index: 1;
+}
+
+.header-writing h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 800;
+    color: var(--white);
+    text-align: center;
+}
