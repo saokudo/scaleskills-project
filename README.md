@@ -1,1 +1,1 @@
-# scaleskills.github.io
+# scale-skills.github.io
