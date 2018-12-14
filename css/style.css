@@ -510,7 +510,7 @@ button:focus {
   padding-bottom: 30px; }
   .canvus_menu .toggle_icon {
     cursor: pointer;
-    position: relative;
+    position: fixed; /*change position*/
     height: 20px;
     width: 30px;
     top: 13px; }
