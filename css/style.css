@@ -3391,6 +3391,8 @@ h6 {
 ============================================================================================ */
 .testimonials_area {
   background: #f9f9ff; }
+  .testimonials_area .round-planet {
+    border: 3px solid rgba(234, 234, 234, 0.52); }
   .testimonials_area .owl-dots {
     position: absolute;
     right: 52%;
