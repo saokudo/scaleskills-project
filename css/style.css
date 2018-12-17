@@ -129,7 +129,7 @@ button:focus {
     .owl-dots .owl-dot:last-child {
       margin-right: 0; }
     .owl-dots .owl-dot.active {
-      background: #f42f2c; }
+      background: #383838; }
 
 @media (min-width: 1200px) {
   .container {
@@ -1068,7 +1068,7 @@ button:focus {
     .causes_slider .owl-dots .owl-dot:last-child {
       margin-right: 0px; }
     .causes_slider .owl-dots .owl-dot.active {
-      background: #f42f2c; }
+      background: #383838; }
 
 .causes_item {
   background: #fff; }
