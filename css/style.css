@@ -671,6 +671,9 @@ button:focus {
 /*----------------------------------------------------*/
 /* Home Banner Area css
 ============================================================================================ */
+#warning{
+  background: #f9f9ff;
+}
 .home_banner {
   position: relative; }
   @media (max-width: 991px) {
